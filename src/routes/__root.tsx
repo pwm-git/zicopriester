@@ -81,10 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Telas, desenhos e gravuras assinados por Zico Priester. Acervo raro, crítico e moderno, a partir de R$ 1.000, com envio para todo o Brasil." },
       { name: "author", content: "Zico Priester" },
       { property: "og:title", content: "Zico Priester — Obras originais do modernismo paulista" },
-      { property: "og:description", content: "Acervo raro do artista José Carlos Priester. Telas, desenhos e gravuras a partir de R$ 1.000, com envio nacional." },
+      { property: "og:description", content: "Telas, desenhos e gravuras assinados por Zico Priester. Acervo raro, crítico e moderno, a partir de R$ 1.000, com envio para todo o Brasil." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Zico Priester — Obras originais do modernismo paulista" },
+      { name: "twitter:description", content: "Telas, desenhos e gravuras assinados por Zico Priester. Acervo raro, crítico e moderno, a partir de R$ 1.000, com envio para todo o Brasil." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/ebd4a56d-d64a-4706-8335-d5cb08543b93" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/ebd4a56d-d64a-4706-8335-d5cb08543b93" },
     ],
     links: [
       {
