@@ -377,10 +377,7 @@ function Galeria() {
           {obras.map((o, i) => (
             <motion.a
               key={o.titulo}
-              href={
-                "https://wa.me/5511000000000?text=" +
-                encodeURIComponent(`Olá Zico, gostaria de saber mais sobre "${o.titulo}" (${o.ano}).`)
-              }
+              href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(`Olá, gostaria de saber mais sobre "${o.titulo}" (${o.ano}).`)}`}
               target="_blank"
               rel="noreferrer"
               initial={{ opacity: 0, y: 24 }}
