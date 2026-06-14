@@ -5,15 +5,25 @@ import { ArrowUpRight, Instagram, MessageCircle, Plus, Minus } from "lucide-reac
 
 import avatarAsset from "@/assets/zico-avatar.jpg.asset.json";
 import logoAsset from "@/assets/zico-logo.jpg.asset.json";
-import obra01 from "@/assets/obra-01.jpg";
-import obra02 from "@/assets/obra-02.jpg";
-import obra03 from "@/assets/obra-03.jpg";
-import obra04 from "@/assets/obra-04.jpg";
-import obra05 from "@/assets/obra-05.jpg";
-import obra06 from "@/assets/obra-06.jpg";
-import obra07 from "@/assets/obra-07.jpg";
-import obra08 from "@/assets/obra-08.jpg";
-import obra09 from "@/assets/obra-09.jpg";
+import obra01Asset from "@/assets/obra-01.jpg.asset.json";
+import obra02Asset from "@/assets/obra-02.jpg.asset.json";
+import obra03Asset from "@/assets/obra-03.jpg.asset.json";
+import obra04Asset from "@/assets/obra-04.jpg.asset.json";
+import obra05Asset from "@/assets/obra-05.jpg.asset.json";
+import obra06Asset from "@/assets/obra-06.jpg.asset.json";
+import obra07Asset from "@/assets/obra-07.jpg.asset.json";
+import obra08Asset from "@/assets/obra-08.jpg.asset.json";
+import obra09Asset from "@/assets/obra-09.jpg.asset.json";
+
+const obra01 = obra01Asset.url;
+const obra02 = obra02Asset.url;
+const obra03 = obra03Asset.url;
+const obra04 = obra04Asset.url;
+const obra05 = obra05Asset.url;
+const obra06 = obra06Asset.url;
+const obra07 = obra07Asset.url;
+const obra08 = obra08Asset.url;
+const obra09 = obra09Asset.url;
 
 export const Route = createFileRoute("/")({
   head: () => ({
