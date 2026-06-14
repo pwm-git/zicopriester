@@ -398,10 +398,16 @@ function Galeria() {
             >
               <img
                 src={o.src}
-                alt="Obra do acervo Zico Priester"
+                alt={`${o.titulo}, ${o.ano} — ${o.tecnica}`}
                 loading="lazy"
                 className="h-full w-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]"
               />
+              <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-foreground/85 via-foreground/10 to-transparent p-5 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                <div className="font-display text-xl italic text-background">{o.titulo}</div>
+                <div className="mt-1 text-[10px] uppercase tracking-[0.24em] text-background/80">
+                  {o.ano} · {o.tecnica}
+                </div>
+              </div>
             </motion.a>
           ))}
         </div>
