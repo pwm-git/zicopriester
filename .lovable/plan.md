@@ -77,7 +77,7 @@ CTA: "Pedir informações sobre as gravuras"
 - Vocês têm site de checkout? → não. Cada obra é única, então o atendimento é feito pessoalmente pelo WhatsApp ou Instagram.
 
 **CTA final**
-"Leve para casa um pedaço do modernismo paulista."
+"Leve para casa um pedaço do modernismo."
 Botões: "Falar no WhatsApp" · "Mensagem no Instagram"
 
 **Footer**: logo manuscrita, "© Zico Priester · São Paulo", links de redes, aviso de autenticidade.
