@@ -142,7 +142,7 @@ function Header() {
         <a href="#top" className="flex items-center gap-3">
           <img src={logoAsset.url} alt="Zico Priester" className="h-9 w-auto md:h-11 mix-blend-multiply" />
           <span className="hidden text-[10px] uppercase tracking-[0.3em] text-muted-foreground sm:inline">
-            José Carlos Priester · est. 1970
+            José Carlos Priester
           </span>
         </a>
         <nav className="hidden items-center gap-8 text-[12px] uppercase tracking-[0.24em] text-foreground/70 md:flex">
