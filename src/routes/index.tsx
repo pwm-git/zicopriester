@@ -550,7 +550,7 @@ function Oferta() {
       <Container>
         <div className="grid grid-cols-1 gap-10 border-y border-border py-16 md:grid-cols-12 md:py-24">
           <div className="md:col-span-5">
-            <SectionLabel roman="VIII" label="Oferta" />
+            <SectionLabel roman="VIII" label="Como adquirir" />
             <h2 className="font-display text-4xl leading-tight md:text-5xl">
               A partir de <span className="italic text-primary">R$ 1.000</span>, sob consulta.
             </h2>
