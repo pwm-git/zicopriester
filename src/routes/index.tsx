@@ -557,8 +557,8 @@ function Oferta() {
           </div>
           <div className="md:col-span-6 md:col-start-7">
             <p className="text-lg leading-relaxed text-foreground/75">
-              Valores variam conforme técnica, tamanho e raridade. Parcelamento e envio combinados diretamente com o
-              artista. Cada peça acompanha certificado assinado.
+              Valores variam conforme técnica, tamanho e raridade. Parcelamento e envio combinados diretamente com a
+              curadoria do artista. Cada peça acompanha certificado assinado.
             </p>
             <a
               href={WHATSAPP_URL}
