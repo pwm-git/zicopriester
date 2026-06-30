@@ -552,7 +552,7 @@ function Oferta() {
           <div className="md:col-span-5">
             <SectionLabel roman="VIII" label="Como adquirir" />
             <h2 className="font-display text-4xl leading-tight md:text-5xl">
-              A partir de <span className="italic text-primary">R$ 1.000</span>, sob consulta.
+              Cada obra é <span className="italic text-primary">única</span>.
             </h2>
           </div>
           <div className="md:col-span-6 md:col-start-7">
