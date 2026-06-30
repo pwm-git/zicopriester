@@ -232,18 +232,6 @@ function Hero() {
               </a>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1.2, delay: 0.6 }}
-              className="mt-14 flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-border pt-6 text-[11px] uppercase tracking-[0.22em] text-muted-foreground"
-            >
-              <span>Ilustrou a Veja, set/1973 — Transamazônica</span>
-              <span className="hidden h-3 w-px bg-border md:inline" />
-              <span>Envio para todo o Brasil</span>
-              <span className="hidden h-3 w-px bg-border md:inline" />
-              <span>Certificado de autenticidade</span>
-            </motion.div>
           </div>
 
           <motion.div
