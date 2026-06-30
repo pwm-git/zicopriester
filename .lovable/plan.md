@@ -6,7 +6,7 @@ Zico Priester é uma marca autoral cult: artista plástico ligado ao modernismo 
 
 - **Eyebrow**: "José Carlos Priester — São Paulo, desde os anos 1970"
 - **Headline**: "Obras originais de um modernista paulista — entregues na sua parede, em qualquer canto do Brasil."
-- **Subheadline**: "Telas, desenhos e gravuras assinados por Zico Priester. Acervo raro, crítico e moderno, a partir de R$ 1.000, com envio para todo o país."
+- **Subheadline**: "Telas, desenhos e gravuras assinados por Zico Priester. Acervo raro, crítico e moderno, com envio para todo o país."
 - **CTA primário**: "Falar com o artista no WhatsApp"
 - **CTA secundário**: "Ver acervo de obras"
 - **Visual**: composição split editorial — à esquerda o retrato em aquarela (Avatar.jpg) sobre textura de papel envelhecido; à direita, a logomarca manuscrita "Zico" como assinatura, com microcredencial discreta ("Ilustrou a Veja em 1973 sobre a Transamazônica").
