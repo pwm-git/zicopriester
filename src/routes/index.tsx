@@ -163,7 +163,7 @@ function Header() {
           rel="noreferrer"
           className="hidden items-center gap-2 border border-foreground bg-foreground px-4 py-2.5 text-[11px] uppercase tracking-[0.24em] text-background transition-colors hover:bg-primary hover:border-primary md:inline-flex"
         >
-          <MessageCircle className="h-3.5 w-3.5" /> Falar com o artista
+          <MessageCircle className="h-3.5 w-3.5" /> Falar com a curadoria
         </a>
       </Container>
     </header>
@@ -231,7 +231,6 @@ function Hero() {
                 Ver acervo de obras
               </a>
             </motion.div>
-
           </div>
 
           <motion.div
