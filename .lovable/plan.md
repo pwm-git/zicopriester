@@ -73,7 +73,7 @@ CTA: "Pedir informações sobre as gravuras"
 - Como sei que a obra é do Zico? → certificado assinado pelo próprio artista.
 - Vocês enviam para fora de São Paulo? → para todo o Brasil, com embalagem técnica.
 - Posso parcelar? → sim, combinado diretamente no atendimento.
-- Posso visitar o ateliê? → sob agendamento, em São Paulo.
+- Posso convidar para expor na minha cidade? → atualmente levamos para exposição na cidade de São Paulo e Florianópolis.
 - Vocês têm site de checkout? → não. Cada obra é única, então o atendimento é feito pessoalmente pelo WhatsApp ou Instagram.
 
 **CTA final**
