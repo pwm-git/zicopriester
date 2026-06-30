@@ -605,7 +605,7 @@ function FAQItem({ q, a }: { q: string; a: string }) {
 function FAQ() {
   const qs = [
     {
-      q: "Como sei que a obra é original?",
+      q: "Como sei que a obra é do Zico?",
       a: "Cada peça acompanha um certificado de autenticidade assinado pelo próprio Zico Priester, com técnica, ano e dimensões.",
     },
     {
@@ -617,7 +617,7 @@ function FAQ() {
       a: "Sim. Condições e formas de pagamento são combinadas diretamente no atendimento pelo WhatsApp.",
     },
     {
-      q: "Posso visitar o ateliê?",
+      q: "Posso pedir uma exposição?",
       a: "Sim, sob agendamento prévio, em São Paulo. Basta solicitar pelo WhatsApp ou Instagram.",
     },
     {
@@ -659,7 +659,7 @@ function CtaFinal() {
           <h2 className="mx-auto mt-8 max-w-4xl font-display text-4xl leading-[1.05] md:text-6xl lg:text-7xl">
             Leve para casa um pedaço do
             <br />
-            <span className="italic text-primary-foreground/90">modernismo paulista.</span>
+            <span className="italic text-primary-foreground/90">modernismo.</span>
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-base text-background/70 md:text-lg">
             Respondemos pessoalmente em até 24h. Sem formulário, sem intermediário.
@@ -698,7 +698,7 @@ function Footer() {
           <div>
             <img src={logoAsset.url} alt="Zico" className="h-16 w-auto mix-blend-multiply" />
             <p className="mt-4 max-w-sm text-sm text-foreground/70">
-              José Carlos Priester · São Paulo. Acervo aberto pela primeira vez ao público.
+              José Carlos Priester. Acervo aberto pela primeira vez ao público.
             </p>
           </div>
           <div className="flex flex-col gap-3 text-[11px] uppercase tracking-[0.24em] text-muted-foreground md:items-end">
