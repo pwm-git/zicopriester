@@ -360,7 +360,7 @@ function Galeria() {
           <div>
             <SectionLabel roman="IV" label="Acervo curado" />
             <h2 className="font-display text-4xl leading-tight md:text-6xl">
-              Trinta obras. <span className="italic text-primary">Trinta capítulos.</span>
+              Diversas obras. <span className="italic text-primary">E muitas histórias.</span>
             </h2>
             <p className="mt-4 max-w-xl text-base text-foreground/70">
               Passe o cursor para ver título, ano e técnica. Para preço e disponibilidade, fale conosco.
