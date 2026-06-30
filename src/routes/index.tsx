@@ -34,11 +34,10 @@ export const Route = createFileRoute("/")({
         content:
           "Telas, desenhos e gravuras assinados por Zico Priester. Acervo raro, crítico e moderno, a partir de R$ 1.000, com envio para todo o Brasil.",
       },
-      { property: "og:title", content: "Zico Priester — Obras originais do modernismo paulista" },
+      { property: "og:title", content: "Zico Priester — Obras raras do modernismo" },
       {
         property: "og:description",
-        content:
-          "Acervo raro do artista José Carlos Priester. Telas, desenhos e gravuras a partir de R$ 1.000, com envio nacional.",
+        content: "Acervo raro do artista José Carlos Priester. Telas, desenhos e gravuras, com envio nacional.",
       },
       { property: "og:image", content: avatarAsset.url },
       { name: "twitter:image", content: avatarAsset.url },
@@ -48,11 +47,12 @@ export const Route = createFileRoute("/")({
 });
 
 const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER ?? "5548999990454";
-const WHATSAPP_MESSAGE = import.meta.env.VITE_WHATSAPP_MESSAGE ?? "Olá, gostaria de pedir mais informações sobre as obras do acervo do Zico.";
+const WHATSAPP_MESSAGE =
+  import.meta.env.VITE_WHATSAPP_MESSAGE ?? "Olá, gostaria de pedir mais informações sobre as obras do acervo do Zico.";
 const INSTAGRAM_HANDLE = import.meta.env.VITE_INSTAGRAM_HANDLE ?? "zico.priester.oficial";
 
-const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
-const INSTAGRAM_URL = `https://instagram.com/${INSTAGRAM_HANDLE}`;
+const WHATSAPP_URL = `https://wa.me/${5548999990454}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+const INSTAGRAM_URL = `https://instagram.com/${zico.priester.oficial}`;
 
 const obras = [
   { src: obra01, titulo: "Operário em pausa", ano: "1972", tecnica: "Óleo sobre tela", span: "row-span-2" },
@@ -103,9 +103,7 @@ function SectionLabel({ roman, label }: { roman: string; label: string }) {
 }
 
 function Container({ children, className = "" }: { children: React.ReactNode; className?: string }) {
-  return (
-    <div className={`mx-auto w-full max-w-[1280px] px-6 md:px-12 lg:px-20 ${className}`}>{children}</div>
-  );
+  return <div className={`mx-auto w-full max-w-[1280px] px-6 md:px-12 lg:px-20 ${className}`}>{children}</div>;
 }
 
 function Fade({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
@@ -146,10 +144,18 @@ function Header() {
           </span>
         </a>
         <nav className="hidden items-center gap-8 text-[12px] uppercase tracking-[0.24em] text-foreground/70 md:flex">
-          <a href="#acervo" className="hover:text-primary transition-colors">Acervo</a>
-          <a href="#trajetoria" className="hover:text-primary transition-colors">Trajetória</a>
-          <a href="#processo" className="hover:text-primary transition-colors">Como funciona</a>
-          <a href="#faq" className="hover:text-primary transition-colors">FAQ</a>
+          <a href="#acervo" className="hover:text-primary transition-colors">
+            Acervo
+          </a>
+          <a href="#trajetoria" className="hover:text-primary transition-colors">
+            Trajetória
+          </a>
+          <a href="#processo" className="hover:text-primary transition-colors">
+            Como funciona
+          </a>
+          <a href="#faq" className="hover:text-primary transition-colors">
+            FAQ
+          </a>
         </nav>
         <a
           href={WHATSAPP_URL}
@@ -178,7 +184,8 @@ function Hero() {
               transition={{ duration: 0.8 }}
               className="mb-8 text-[11px] uppercase tracking-[0.32em] text-muted-foreground"
             >
-              <span className="text-primary">I</span> &nbsp;·&nbsp; José Carlos Priester &nbsp;·&nbsp; São Paulo, desde os anos 1970
+              <span className="text-primary">I</span> &nbsp;·&nbsp; José Carlos Priester &nbsp;·&nbsp; São Paulo, desde
+              os anos 1970
             </motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 24 }}
@@ -189,8 +196,7 @@ function Hero() {
               Obras originais
               <br />
               de um <span className="italic text-primary">modernista</span>
-              <br />
-              — acervo exclusivo.
+              <br />— acervo exclusivo.
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 12 }}
@@ -198,8 +204,8 @@ function Hero() {
               transition={{ duration: 1, delay: 0.25 }}
               className="mt-8 max-w-xl text-base leading-relaxed text-foreground/75 md:text-lg"
             >
-              Telas, desenhos e gravuras assinados por Zico Priester. Acervo raro,
-              crítico e moderno, com envio para todo o Brasil.
+              Telas, desenhos e gravuras assinados por Zico Priester. Acervo raro, crítico e moderno, com envio para
+              todo o Brasil.
             </motion.p>
 
             <motion.div
@@ -277,10 +283,9 @@ function Manifesto() {
       <Container>
         <Fade>
           <p className="mx-auto max-w-4xl font-display text-2xl leading-relaxed text-foreground/80 md:text-3xl lg:text-4xl">
-            Há mais de cinco décadas, Zico Priester desenha o Brasil que poucos
-            têm coragem de olhar. <span className="italic text-primary">Modernista</span> por formação,
-            sarcástico por instinto, arquiteto por ofício. Esta página é um
-            arquivo aberto — e um convite para levar uma obra original para casa.
+            Há mais de cinco décadas, Zico Priester desenha o Brasil que poucos têm coragem de olhar.{" "}
+            <span className="italic text-primary">Modernista</span> por formação, sarcástico por instinto, arquiteto por
+            ofício. Esta página é um arquivo aberto — e um convite para levar uma obra original para casa.
           </p>
         </Fade>
       </Container>
@@ -304,10 +309,13 @@ function Problema() {
           <div className="lg:col-span-7 lg:col-start-6 lg:pt-16">
             <Fade>
               <p className="text-lg leading-relaxed text-foreground/75">
-                Boa parte da arte produzida no Brasil dos anos <strong>1960 e 1970</strong> ficou guardada em ateliês, gavetas e galerias fechadas. Para quem busca peças com densidade histórica, o caminho costuma ser longo, caro e cheio de intermediários.
+                Boa parte da arte produzida no Brasil dos anos <strong>1960 e 1970</strong> ficou guardada em ateliês,
+                gavetas e galerias fechadas. Para quem busca peças com densidade histórica, o caminho costuma ser longo,
+                caro e cheio de intermediários.
               </p>
               <p className="mt-6 text-lg leading-relaxed text-foreground/75">
-                Arquitetos, decoradores e colecionadores curiosos terminam optando por reproduções decorativas — quando poderiam viver com uma obra que carrega um país inteiro dentro dela.
+                Arquitetos, decoradores e colecionadores curiosos terminam optando por reproduções decorativas — quando
+                poderiam viver com uma obra que carrega um país inteiro dentro dela.
               </p>
             </Fade>
           </div>
@@ -331,7 +339,8 @@ function Solucao() {
               <span className="italic text-primary"> Direto do artista.</span>
             </h2>
             <p className="mt-8 text-lg leading-relaxed text-foreground/75">
-              Telas grandes, desenhos a nanquim e gravuras assinadas, vindas do acervo pessoal de Zico Priester. Você conversa com quem assinou a obra.
+              Telas grandes, desenhos a nanquim e gravuras assinadas, vindas do acervo pessoal de Zico Priester. Você
+              conversa com quem assinou a obra.
             </p>
           </div>
           <div className="lg:col-span-6 lg:col-start-7">
@@ -421,10 +430,26 @@ function Galeria() {
 
 function Trajetoria() {
   const eras = [
-    { ano: "1940s", titulo: "Origens paulistas", txt: "Infância e formação em São Paulo. Os primeiros cadernos de desenho." },
-    { ano: "1970s", titulo: "Arquitetura & editorial", txt: "Ilustra a Revista Veja em 1973 — a ocupação da Amazônia durante o regime militar." },
-    { ano: "1980 – 90s", titulo: "Música & cidade", txt: "Design gráfico, música e projetos urbanos. Atravessa décadas como observador crítico." },
-    { ano: "Hoje", titulo: "Acervo aberto", txt: "Pela primeira vez, o acervo pessoal é apresentado diretamente ao público." },
+    {
+      ano: "1940s",
+      titulo: "Origens paulistas",
+      txt: "Infância e formação em São Paulo. Os primeiros cadernos de desenho.",
+    },
+    {
+      ano: "1970s",
+      titulo: "Arquitetura & editorial",
+      txt: "Ilustra a Revista Veja em 1973 — a ocupação da Amazônia durante o regime militar.",
+    },
+    {
+      ano: "1980 – 90s",
+      titulo: "Música & cidade",
+      txt: "Design gráfico, música e projetos urbanos. Atravessa décadas como observador crítico.",
+    },
+    {
+      ano: "Hoje",
+      titulo: "Acervo aberto",
+      txt: "Pela primeira vez, o acervo pessoal é apresentado diretamente ao público.",
+    },
   ];
   return (
     <section id="trajetoria" className="mt-32 md:mt-44">
@@ -578,7 +603,8 @@ function Oferta() {
           </div>
           <div className="md:col-span-6 md:col-start-7">
             <p className="text-lg leading-relaxed text-foreground/75">
-              Valores variam conforme técnica, tamanho e raridade. Parcelamento e envio combinados diretamente com o artista. Cada peça acompanha certificado assinado.
+              Valores variam conforme técnica, tamanho e raridade. Parcelamento e envio combinados diretamente com o
+              artista. Cada peça acompanha certificado assinado.
             </p>
             <a
               href={WHATSAPP_URL}
@@ -624,11 +650,26 @@ function FAQItem({ q, a }: { q: string; a: string }) {
 
 function FAQ() {
   const qs = [
-    { q: "Como sei que a obra é original?", a: "Cada peça acompanha um certificado de autenticidade assinado pelo próprio Zico Priester, com técnica, ano e dimensões." },
-    { q: "Vocês enviam para fora de São Paulo?", a: "Sim, para todo o Brasil. Usamos embalagem técnica adequada para telas, gravuras e desenhos." },
-    { q: "Posso parcelar?", a: "Sim. Condições e formas de pagamento são combinadas diretamente no atendimento pelo WhatsApp." },
-    { q: "Posso visitar o ateliê?", a: "Sim, sob agendamento prévio, em São Paulo. Basta solicitar pelo WhatsApp ou Instagram." },
-    { q: "Por que não há checkout no site?", a: "Cada obra é única e exige conversa. Preferimos o atendimento pessoal — pelo WhatsApp ou direct no Instagram oficial." },
+    {
+      q: "Como sei que a obra é original?",
+      a: "Cada peça acompanha um certificado de autenticidade assinado pelo próprio Zico Priester, com técnica, ano e dimensões.",
+    },
+    {
+      q: "Vocês enviam para fora de São Paulo?",
+      a: "Sim, para todo o Brasil. Usamos embalagem técnica adequada para telas, gravuras e desenhos.",
+    },
+    {
+      q: "Posso parcelar?",
+      a: "Sim. Condições e formas de pagamento são combinadas diretamente no atendimento pelo WhatsApp.",
+    },
+    {
+      q: "Posso visitar o ateliê?",
+      a: "Sim, sob agendamento prévio, em São Paulo. Basta solicitar pelo WhatsApp ou Instagram.",
+    },
+    {
+      q: "Por que não há checkout no site?",
+      a: "Cada obra é única e exige conversa. Preferimos o atendimento pessoal — pelo WhatsApp ou direct no Instagram oficial.",
+    },
   ];
   return (
     <section id="faq" className="mt-32 md:mt-44">
