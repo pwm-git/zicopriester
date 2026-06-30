@@ -65,12 +65,12 @@ Hoje · Acervo aberto ao público pela primeira vez"
 **Prova social** — 2-3 depoimentos curtos rotulados como "depoimentos de clientes" (fictícios, claramente ilustrativos — confirmar com o cliente antes do go-live).
 
 **Oferta**
-"Valores a partir de R$ 1.000, sob consulta conforme técnica, tamanho e raridade. Parcelamento e envio combinados diretamente com o artista."
-CTA: "Pedir orçamento de uma obra"
+"Valores sob consulta conforme técnica, tamanho e raridade. Parcelamento e envio combinados diretamente com o artista."
+CTA: "Pedir informações sobre as gravuras"
 
 **Objeções / FAQ**
 
-- Como sei que a obra é original? → certificado assinado pelo próprio artista.
+- Como sei que a obra é do Zico? → certificado assinado pelo próprio artista.
 - Vocês enviam para fora de São Paulo? → para todo o Brasil, com embalagem técnica.
 - Posso parcelar? → sim, combinado diretamente no atendimento.
 - Posso visitar o ateliê? → sob agendamento, em São Paulo.
