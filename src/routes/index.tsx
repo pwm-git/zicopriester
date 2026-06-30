@@ -537,9 +537,6 @@ function Depoimentos() {
             </Fade>
           ))}
         </div>
-        <p className="mt-6 text-center text-[10px] uppercase tracking-[0.24em] text-muted-foreground">
-          * Depoimentos ilustrativos. Avaliações reais publicadas em breve no Instagram oficial.
-        </p>
       </Container>
     </section>
   );
