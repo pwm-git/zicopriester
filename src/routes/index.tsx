@@ -184,8 +184,8 @@ function Hero() {
               transition={{ duration: 0.8 }}
               className="mb-8 text-[11px] uppercase tracking-[0.32em] text-muted-foreground"
             >
-              <span className="text-primary">I</span> &nbsp;·&nbsp; José Carlos Priester &nbsp;·&nbsp; São Paulo, desde
-              os anos 1970
+              <span className="text-primary">I</span> &nbsp;·&nbsp; José Carlos Priester &nbsp;·&nbsp; desde os anos
+              1970
             </motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 24 }}
