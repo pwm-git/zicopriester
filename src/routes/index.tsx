@@ -188,7 +188,7 @@ function Hero() {
             >
               Obras originais
               <br />
-              de um modernista
+              de um <span className="italic text-primary">modernista</span>
               <br />
               — acervo exclusivo.
             </motion.h1>
