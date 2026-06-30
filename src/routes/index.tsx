@@ -192,10 +192,10 @@ function Hero() {
               transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
               className="font-display text-[44px] leading-[1.02] tracking-tight md:text-[72px] lg:text-[88px]"
             >
-              Obras originais
+              Obras do artista
               <br />
-              de um <span className="italic text-primary">modernista</span>
-              <br />— acervo exclusivo.
+              <span className="italic text-primary">modernista</span>&nbsp;
+              <br />—&nbsp; acervo exclusivo.
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 12 }}
@@ -220,14 +220,14 @@ function Hero() {
                 className="group inline-flex items-center justify-center gap-3 border border-foreground bg-foreground px-7 py-4 text-[12px] uppercase tracking-[0.28em] text-background transition-all hover:bg-primary hover:border-primary"
               >
                 <MessageCircle className="h-4 w-4" />
-                Falar com o artista no WhatsApp
+                ESCOLHER OBRA
                 <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </a>
               <a
                 href="#acervo"
                 className="inline-flex items-center justify-center gap-2 px-2 py-4 text-[12px] uppercase tracking-[0.28em] text-foreground underline-offset-8 hover:underline"
               >
-                Ver acervo de obras
+                VER ACERVO AUTORAL
               </a>
             </motion.div>
           </div>
@@ -326,15 +326,15 @@ function Solucao() {
             </h2>
             <p className="mt-8 text-lg leading-relaxed text-foreground/75">
               Telas grandes, desenhos a nanquim e gravuras assinadas, vindas do acervo pessoal de Zico Priester. Você
-              conversa com quem assinou a obra.
+              conversa com a curadoria oficial de quem assinou a obra.
             </p>
           </div>
           <div className="lg:col-span-6 lg:col-start-7">
             <div className="grid grid-cols-3 gap-px bg-border">
               {[
-                { n: "30", l: "Telas grandes" },
+                { n: "A4", l: "GRAVURAS EXCLUSIVAS\n\n\n" },
                 { n: "+", l: "Desenhos a nanquim" },
-                { n: "+", l: "Gravuras assinadas" },
+                { n: "+", l: "\u00a0TELAS" },
               ].map((s) => (
                 <div key={s.l} className="bg-background p-6 text-center md:p-8">
                   <div className="font-display text-5xl text-primary md:text-6xl">{s.n}</div>
