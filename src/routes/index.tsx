@@ -51,8 +51,8 @@ const WHATSAPP_MESSAGE =
   import.meta.env.VITE_WHATSAPP_MESSAGE ?? "Olá, gostaria de pedir mais informações sobre as obras do acervo do Zico.";
 const INSTAGRAM_HANDLE = import.meta.env.VITE_INSTAGRAM_HANDLE ?? "zico.priester.oficial";
 
-const WHATSAPP_URL = `https://wa.me/${5548999990454}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
-const INSTAGRAM_URL = `https://instagram.com/${zico.priester.oficial}`;
+const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+const INSTAGRAM_URL = `https://instagram.com/${INSTAGRAM_HANDLE}`;
 
 const obras = [
   { src: obra01, titulo: "Operário em pausa", ano: "1972", tecnica: "Óleo sobre tela", span: "row-span-2" },
@@ -232,18 +232,6 @@ function Hero() {
               </a>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1.2, delay: 0.6 }}
-              className="mt-14 flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-border pt-6 text-[11px] uppercase tracking-[0.22em] text-muted-foreground"
-            >
-              <span>Ilustrou a Veja, set/1973 — Transamazônica</span>
-              <span className="hidden h-3 w-px bg-border md:inline" />
-              <span>Envio para todo o Brasil</span>
-              <span className="hidden h-3 w-px bg-border md:inline" />
-              <span>Certificado de autenticidade</span>
-            </motion.div>
           </div>
 
           <motion.div
