@@ -122,6 +122,6 @@ Botões: "Falar no WhatsApp" · "Mensagem no Instagram"
 
 ## Perguntas antes do build
 
-1. Qual o **número de WhatsApp** e o **@ do Instagram** oficiais para os botões?
+1. Qual o **número de WhatsApp** e o **@zico.priester.oficial** oficiais para os botões?
 2. Você quer que eu **gere placeholders visuais** para as 30 obras (estética modernista) ou prefere deixar os slots vazios para você subir as fotos reais depois?
 3. Posso publicar **depoimentos fictícios marcados como "ilustrativos"** ou prefere a seção de prova social omitida até ter depoimentos reais?
