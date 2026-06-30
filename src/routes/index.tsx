@@ -199,8 +199,7 @@ function Hero() {
               className="mt-8 max-w-xl text-base leading-relaxed text-foreground/75 md:text-lg"
             >
               Telas, desenhos e gravuras assinados por Zico Priester. Acervo raro,
-              crítico e moderno — a partir de <strong className="text-foreground">R$ 1.000</strong>, com envio
-              para todo o Brasil.
+              crítico e moderno, com envio para todo o Brasil.
             </motion.p>
 
             <motion.div
