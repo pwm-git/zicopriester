@@ -28,7 +28,7 @@ const obra09 = obra09Asset.url;
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Zico Priester — Obras raras do modernismo" },
+      { title: "Zico Priester" },
       {
         name: "description",
         content:
