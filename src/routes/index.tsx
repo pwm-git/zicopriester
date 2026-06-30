@@ -32,7 +32,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Telas, desenhos e gravuras assinados por Zico Priester. Acervo raro, crítico e moderno, a partir de R$ 1.000, com envio para todo o Brasil.",
+          "Telas, desenhos e gravuras assinados por Zico Priester. Acervo raro, crítico e moderno, com envio para todo o Brasil.",
       },
       { property: "og:title", content: "Zico Priester — Obras raras do modernismo" },
       {
