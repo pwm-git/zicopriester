@@ -505,7 +505,6 @@ function Diferenciais() {
   const items = [
     "Obras originais, únicas, assinadas",
     "Acervo histórico do modernismo paulista",
-    "Valores a partir de R$ 1.000",
     "Envio nacional com embalagem técnica",
     "Certificado de autenticidade incluso",
     "Atendimento direto, sem intermediários",

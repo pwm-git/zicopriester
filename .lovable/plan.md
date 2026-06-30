@@ -18,7 +18,7 @@ Zico Priester é uma marca autoral cult: artista plástico ligado ao modernismo 
 3. Manifesto curto — "O artista como testemunha do Brasil"
 4. Problema — "Acervos dos anos 60 e 70 raramente chegam ao público"
 5. Solução / Sobre o acervo — telas, desenhos, gravuras
-6. Galeria curada (grid editorial 30 obras, com hover de título/ano/técnica)
+6. Galeria curada (grid editorial Diversas obras, com hover de ano/técnica)
 7. Trajetória — arquiteto, músico, artista (timeline sóbria)
 8. Como funciona em 4 passos (escolher → conversar → reservar → receber)
 9. Benefícios / Diferenciais (originalidade, valor histórico, envio nacional, certificado)
@@ -49,12 +49,14 @@ Corpo: "Boa parte da arte produzida no Brasil dos anos 1960 e 1970 ficou guardad
 Hoje · Acervo aberto ao público pela primeira vez"
 
 **Como funciona**
+
 1. Escolha uma obra na galeria
 2. Converse pelo WhatsApp ou Instagram
 3. Reserve com sinal e receba certificado de autenticidade
 4. Embalagem museológica e envio para todo Brasil
 
 **Diferenciais**
+
 - Obras originais, únicas, assinadas
 - Acervo histórico do modernismo paulista
 - A partir de R$ 1.000
@@ -68,6 +70,7 @@ Hoje · Acervo aberto ao público pela primeira vez"
 CTA: "Pedir orçamento de uma obra"
 
 **Objeções / FAQ**
+
 - Como sei que a obra é original? → certificado assinado pelo próprio artista.
 - Vocês enviam para fora de São Paulo? → para todo o Brasil, com embalagem técnica.
 - Posso parcelar? → sim, combinado diretamente no atendimento.
@@ -83,7 +86,7 @@ Botões: "Falar no WhatsApp" · "Mensagem no Instagram"
 ## 5. Direção visual
 
 - **Paleta** (do PDF): off-white #e2e2e2 / #ffffff como fundo, verde concreto #44726f como acento editorial, preto #000000 como tipografia e tinta. Sépia e cinza envelhecido nas texturas.
-- **Tipografia**: display em serifa editorial vintage (ex. *Cormorant Garamond* ou *Instrument Serif*) para títulos; *Inter* ou *Söhne*-like para corpo; logotipo manuscrito (asset enviado) como assinatura. Itálicos sóbrios para legendas/curadoria.
+- **Tipografia**: display em serifa editorial vintage (ex. _Cormorant Garamond_ ou _Instrument Serif_) para títulos; _Inter_ ou _Söhne_-like para corpo; logotipo manuscrito (asset enviado) como assinatura. Itálicos sóbrios para legendas/curadoria.
 - **Layout**: grid editorial assimétrico, generoso whitespace, margens largas, regras finas, números de seção em romanos pequenos (I, II, III) como em revistas culturais dos anos 70.
 - **Texturas**: papel envelhecido sutil, manchas de tinta nas bordas, croquis arquitetônicos como ornamento secundário em opacidade baixa.
 - **Imagens**: avatar em aquarela na hero, galeria em grid de placeholders gerados (telas, desenhos, gravuras — estética modernista/barroca em tons sóbrios), foto urbana de SP histórica como divisor de seção.
@@ -119,6 +122,7 @@ Botões: "Falar no WhatsApp" · "Mensagem no Instagram"
 - Sem backend: form não é necessário; toda conversão sai por WhatsApp/Instagram. Não habilitar Lovable Cloud.
 
 ## Perguntas antes do build
+
 1. Qual o **número de WhatsApp** e o **@ do Instagram** oficiais para os botões?
 2. Você quer que eu **gere placeholders visuais** para as 30 obras (estética modernista) ou prefere deixar os slots vazios para você subir as fotos reais depois?
 3. Posso publicar **depoimentos fictícios marcados como "ilustrativos"** ou prefere a seção de prova social omitida até ter depoimentos reais?
