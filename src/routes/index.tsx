@@ -190,9 +190,7 @@ function Hero() {
               <br />
               de um modernista
               <br />
-              <span className="italic text-primary">paulista</span> — entregues
-              <br />
-              na sua parede.
+              — acervo exclusivo.
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 12 }}
