@@ -78,7 +78,6 @@ function Index() {
         <Galeria />
         <Trajetoria />
         <ComoFunciona />
-        <Diferenciais />
         <Depoimentos />
         <Oferta />
         <FAQ />
@@ -499,34 +498,6 @@ function ComoFunciona() {
   );
 }
 
-/* ------------------------------ diferenciais ------------------------------ */
-
-function Diferenciais() {
-  const items = [
-    "Obras originais, únicas, assinadas",
-    "Acervo histórico do modernismo paulista",
-    "Envio nacional com embalagem técnica",
-    "Certificado de autenticidade incluso",
-    "Atendimento direto, sem intermediários",
-  ];
-  return (
-    <section className="mt-32 md:mt-44">
-      <Container>
-        <SectionLabel roman="VII" label="Diferenciais" />
-        <div className="grid grid-cols-1 gap-x-12 gap-y-px bg-border md:grid-cols-2">
-          {items.map((it, i) => (
-            <Fade key={it} delay={(i % 2) * 0.1}>
-              <div className="flex items-baseline gap-6 py-8">
-                <span className="font-display text-sm italic text-primary">{["I", "II", "III", "IV", "V"][i]}</span>
-                <span className="font-display text-2xl leading-snug md:text-3xl">{it}</span>
-              </div>
-            </Fade>
-          ))}
-        </div>
-      </Container>
-    </section>
-  );
-}
 
 /* ------------------------------ depoimentos ------------------------------- */
 
@@ -551,7 +522,7 @@ function Depoimentos() {
   return (
     <section className="mt-32 md:mt-44">
       <Container>
-        <SectionLabel roman="VIII" label="Quem já levou para casa" />
+        <SectionLabel roman="VII" label="Quem já levou para casa" />
         <div className="grid grid-cols-1 gap-px bg-border md:grid-cols-3">
           {items.map((d) => (
             <Fade key={d.n}>
@@ -582,7 +553,7 @@ function Oferta() {
       <Container>
         <div className="grid grid-cols-1 gap-10 border-y border-border py-16 md:grid-cols-12 md:py-24">
           <div className="md:col-span-5">
-            <SectionLabel roman="IX" label="Oferta" />
+            <SectionLabel roman="VIII" label="Oferta" />
             <h2 className="font-display text-4xl leading-tight md:text-5xl">
               A partir de <span className="italic text-primary">R$ 1.000</span>, sob consulta.
             </h2>
@@ -662,7 +633,7 @@ function FAQ() {
       <Container>
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">
           <div className="lg:col-span-4">
-            <SectionLabel roman="X" label="Dúvidas" />
+            <SectionLabel roman="IX" label="Dúvidas" />
             <h2 className="font-display text-4xl leading-tight md:text-5xl">
               Antes de levar uma obra <span className="italic text-primary">para casa.</span>
             </h2>
@@ -687,7 +658,7 @@ function CtaFinal() {
     <section className="mt-32 md:mt-44">
       <Container>
         <div className="relative overflow-hidden border border-border bg-foreground px-8 py-20 text-center text-background md:px-16 md:py-32">
-          <p className="text-[11px] uppercase tracking-[0.32em] text-background/60">XI · Convite</p>
+          <p className="text-[11px] uppercase tracking-[0.32em] text-background/60">X · Convite</p>
           <h2 className="mx-auto mt-8 max-w-4xl font-display text-4xl leading-[1.05] md:text-6xl lg:text-7xl">
             Leve para casa um pedaço do
             <br />
