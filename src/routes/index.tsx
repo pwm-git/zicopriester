@@ -227,7 +227,7 @@ function Hero() {
                 href="#acervo"
                 className="inline-flex items-center justify-center gap-2 px-2 py-4 text-[12px] uppercase tracking-[0.28em] text-foreground underline-offset-8 hover:underline"
               >
-                VER ACERVO AUTORAL
+                {"\n"}
               </a>
             </motion.div>
           </div>
