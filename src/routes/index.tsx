@@ -517,7 +517,7 @@ function Diferenciais() {
           {items.map((it, i) => (
             <Fade key={it} delay={(i % 2) * 0.1}>
               <div className="flex items-baseline gap-6 py-8">
-                <span className="font-display text-sm italic text-primary">0{i + 1}</span>
+                <span className="font-display text-sm italic text-primary">{["I", "II", "III", "IV", "V"][i]}</span>
                 <span className="font-display text-2xl leading-snug md:text-3xl">{it}</span>
               </div>
             </Fade>
