@@ -220,7 +220,7 @@ function Hero() {
                 className="group inline-flex items-center justify-center gap-3 border border-foreground bg-foreground px-7 py-4 text-[12px] uppercase tracking-[0.28em] text-background transition-all hover:bg-primary hover:border-primary"
               >
                 <MessageCircle className="h-4 w-4" />
-                ESCOLHER OBRA
+                ESCOLHER NO ACERVO
                 <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </a>
               <a
