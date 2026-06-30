@@ -363,7 +363,7 @@ function Galeria() {
               Diversas obras. <span className="italic text-primary">E muitas histórias.</span>
             </h2>
             <p className="mt-4 max-w-xl text-base text-foreground/70">
-              Passe o cursor para ver título, ano e técnica. Para preço e disponibilidade, fale conosco.
+              Fale com a curadoria oficial do Zico, para adquirir a sua obra favorita.
             </p>
           </div>
           <a
