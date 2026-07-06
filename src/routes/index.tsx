@@ -541,7 +541,7 @@ function Depoimentos() {
   return (
     <section className="mt-32 md:mt-44">
       <Container>
-        <SectionLabel roman="VII" label="Quem já levou para casa" />
+        <SectionLabel roman="VII" label="quem já conquistou uma obra do Zico" />
         <div className="grid grid-cols-1 gap-px bg-border md:grid-cols-3">
           {items.map((d) => (
             <Fade key={d.n}>
