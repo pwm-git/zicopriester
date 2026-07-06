@@ -140,9 +140,6 @@ function Header() {
       <Container className="flex h-16 items-center justify-between md:h-20">
         <a href="#top" className="flex items-center gap-3">
           <img src={logoAsset.url} alt="Zico Priester" className="h-9 w-auto md:h-11 mix-blend-multiply" />
-          <span className="hidden text-[10px] uppercase tracking-[0.3em] text-muted-foreground sm:inline">
-            José Carlos Priester
-          </span>
         </a>
         <nav className="hidden items-center gap-8 text-[12px] uppercase tracking-[0.24em] text-foreground/70 md:flex">
           <a href="#acervo" className="hover:text-primary transition-colors">
@@ -158,14 +155,7 @@ function Header() {
             FAQ
           </a>
         </nav>
-        <a
-          href={WHATSAPP_URL}
-          target="_blank"
-          rel="noreferrer"
-          className="hidden items-center gap-2 border border-foreground bg-foreground px-4 py-2.5 text-[11px] uppercase tracking-[0.24em] text-background transition-colors hover:bg-primary hover:border-primary md:inline-flex"
-        >
-          <MessageCircle className="h-3.5 w-3.5" /> Falar com a curadoria
-        </a>
+        <div className="hidden md:block" />
       </Container>
     </header>
   );
