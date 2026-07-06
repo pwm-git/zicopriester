@@ -731,7 +731,12 @@ function Footer() {
           </div>
         </div>
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-border pt-6 text-[10px] uppercase tracking-[0.24em] text-muted-foreground md:flex-row">
-          <span>© {new Date().getFullYear()} Zico Priester. Todos os direitos reservados.</span>
+          <span>
+            © {new Date().getFullYear()} Zico Priester. Todos os direitos reservados. Desenvolvido por:{" "}
+            <a href="https://contatobom.com" target="_blank" rel="noreferrer" className="underline hover:text-primary">
+              Contato Bom
+            </a>
+          </span>
           <span>TODÁ INVENTIVIDADE · ATUALIZADO JUNHO 2026</span>
         </div>
       </Container>
