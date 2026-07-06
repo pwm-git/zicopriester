@@ -734,7 +734,7 @@ function Footer() {
           <span>
             © {new Date().getFullYear()} Zico Priester. Todos os direitos reservados. Desenvolvido por:{" "}
             <a href="https://contatobom.com" target="_blank" rel="noreferrer" className="underline hover:text-primary">
-              Todá Contato Bom
+              Contato Bom
             </a>
           </span>
           <span>TODÁ INVENTIVIDADE · ATUALIZADO JUNHO 2026</span>
