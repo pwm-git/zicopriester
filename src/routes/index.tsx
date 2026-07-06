@@ -448,8 +448,8 @@ function Trajetoria() {
         </h2>
         <div className="mt-16 grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-16">
           {/* Retrato editorial */}
-          <Fade className="lg:col-span-5">
-            <figure className="relative">
+          <Fade>
+            <figure className="relative lg:col-span-5">
               <div className="absolute -left-3 -top-3 hidden h-full w-full border border-primary/40 md:block" aria-hidden />
               <div className="relative overflow-hidden bg-muted">
                 <img
