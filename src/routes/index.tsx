@@ -246,14 +246,6 @@ function Hero() {
                 </div>
               </div>
             </div>
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noreferrer"
-              className="mt-8 inline-flex items-center justify-center gap-2 border border-foreground bg-foreground px-6 py-3.5 text-[11px] uppercase tracking-[0.24em] text-background transition-colors hover:bg-primary hover:border-primary w-full sm:w-auto"
-            >
-              <MessageCircle className="h-3.5 w-3.5" /> Falar com a curadoria
-            </a>
           </motion.div>
         </div>
       </Container>
