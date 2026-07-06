@@ -637,7 +637,7 @@ function FAQ() {
     },
     {
       q: "Posso pedir uma exposição?",
-      a: "Sim, sob agendamento prévio, em São Paulo. Basta solicitar pelo WhatsApp ou Instagram.",
+      a: "Sim, sob agendamento prévio, em São Paulo e Florianópolis. Basta solicitar pelo WhatsApp ou Instagram.",
     },
     {
       q: "Por que não há checkout no site?",
