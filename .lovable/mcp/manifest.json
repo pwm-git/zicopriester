@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "sdk_version": "0.20.0",
+  "path": "/mcp",
+  "auth": {
+    "type": "none"
+  },
+  "mcp": {
+    "server": {
+      "name": "zico-priester-mcp",
+      "version": "0.1.0",
+      "title": "Zico Priester — Acervo"
+    },
+    "tools": [
+      {
+        "name": "list_obras",
+        "title": "Listar obras do acervo",
+        "description": "Lista as obras originais de Zico Priester disponíveis no acervo, com título, ano e técnica.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_contact_info",
+        "title": "Obter contato do artista",
+        "description": "Retorna os canais oficiais de contato com o artista Zico Priester (WhatsApp e Instagram).",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}
