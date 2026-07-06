@@ -14,6 +14,7 @@ import obra06Asset from "@/assets/obra-06.jpg.asset.json";
 import obra07Asset from "@/assets/obra-07.jpg.asset.json";
 import obra08Asset from "@/assets/obra-08.jpg.asset.json";
 import obra09Asset from "@/assets/obra-09.jpg.asset.json";
+import retratoAtelieAsset from "@/assets/zico-retrato-atelie.jpg.asset.json";
 
 const obra01 = obra01Asset.url;
 const obra02 = obra02Asset.url;
@@ -24,6 +25,7 @@ const obra06 = obra06Asset.url;
 const obra07 = obra07Asset.url;
 const obra08 = obra08Asset.url;
 const obra09 = obra09Asset.url;
+const retratoAtelie = retratoAtelieAsset.url;
 
 export const Route = createFileRoute("/")({
   head: () => ({
