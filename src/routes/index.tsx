@@ -54,7 +54,7 @@ const WHATSAPP_MESSAGE =
 const INSTAGRAM_HANDLE = import.meta.env.VITE_INSTAGRAM_HANDLE ?? "zico.priester.oficial";
 
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
-const INSTAGRAM_URL = `https://instagram.com/${INSTAGRAM_HANDLE}`;
+const INSTAGRAM_URL = `https://www.instagram.com/${INSTAGRAM_HANDLE}`;
 
 const obras = [
   { src: obra01, titulo: "Operário em pausa", ano: "1972", tecnica: "Óleo sobre tela", span: "row-span-2" },
