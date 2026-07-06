@@ -468,10 +468,6 @@ function Trajetoria() {
                   aria-hidden
                 />
               </div>
-              <figcaption className="mt-4 flex items-baseline justify-between gap-4 border-t border-border pt-3 font-display text-xs uppercase tracking-[0.2em] text-foreground/60">
-                <span>Ateliê · São Paulo</span>
-                <span className="italic">retrato inédito</span>
-              </figcaption>
             </figure>
            </Fade>
           </div>
