@@ -578,7 +578,7 @@ function Depoimentos() {
         <div className="grid grid-cols-1 gap-px bg-border md:grid-cols-3">
           {items.map((d) => (
             <Fade key={d.n}>
-              <Testimonial t={d.t} n={d.n} c={d.c} long={d.long} />
+              <Depoimento t={d.t} n={d.n} c={d.c} long={d.long} />
             </Fade>
           ))}
         </div>
