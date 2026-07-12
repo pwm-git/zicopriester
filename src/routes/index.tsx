@@ -555,6 +555,11 @@ function Depoimentos() {
       c: "Produtora de Arte · ARTEPARAUSAR",
     },
     {
+      t: "É raro encontrar quem ainda pinte com a memória dos anos 70 ainda viva. Vale cada centímetro.",
+      n: "Henrique L.",
+      c: "Decorador, Higienópolis",
+    },
+    {
       t: "Recebi a tela embalada como um documento histórico. A conversa pelo WhatsApp foi a parte mais inesperada.",
       n: "Sofia R.",
       c: "Colecionadora, Curitiba",
