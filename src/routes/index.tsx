@@ -555,9 +555,10 @@ function Depoimentos() {
       c: "Produtora de Arte · ARTEPARAUSAR",
     },
     {
-      t: "É raro encontrar quem ainda pinte com a memória dos anos 70 ainda viva. Vale cada centímetro.",
-      n: "Henrique L.",
-      c: "Decorador, Higienópolis",
+      t: `O trabalho de Zico Priester é variado, assim como suas paixões: São Paulo, Manaus, Florianópolis, Joinville, de mecânica de carros, a barcos, suas filhas, músicas, sua flauta e mais recentemente seu violão. Suas telas, suas gravuras, seus trabalhos em madeira, suas charges, e sim sua arquitetura. Um artista refinado, crítico, de humor ácido, às vezes leve, às vezes com linhas duras, às vezes erótico, muitas vezes colorido noutras preto e cinza, artista que sintetiza em sua arte os amores e as paisagens que atravessam sua vida. Não há um Zico Priester, o que há é um artista em pleno movimento.`,
+      n: "Adriano de Queiroz - Nonô - Jim das Selvas",
+      c: "Genro do artista",
+      long: true,
     },
     {
       t: "Recebi a tela embalada como um documento histórico. A conversa pelo WhatsApp foi a parte mais inesperada.",
