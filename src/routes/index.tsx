@@ -550,9 +550,9 @@ function Depoimento({ t, n, c, long }: { t: string; n: string; c: string; long?:
 function Depoimentos() {
   const items = [
     {
-      t: "Comprei um nanquim para o escritório de arquitetura. Os clientes param para olhar antes de qualquer cadeira.",
-      n: "Marina A.",
-      c: "Arquiteta, Pinheiros",
+      t: "Um refresco conhecer a obra e o artista Zico Priester. Uma arte consistente que vem de longa data. Traço preciso e afiado. De uma sensibilidade cromática marcante, especialmente em suas gravuras coloridas.",
+      n: "Rafaela Hering Bell",
+      c: "Produtora de Arte · ARTEPARAUSAR",
     },
     {
       t: "É raro encontrar quem ainda pinte com a memória dos anos 70 ainda viva. Vale cada centímetro.",
