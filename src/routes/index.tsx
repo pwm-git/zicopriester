@@ -10,12 +10,12 @@ export const Route = createFileRoute("/")({
       { title: "Zico Priester — Em breve" },
       {
         name: "description",
-        content: "Acervo de Zico Priester. Voltamos em breve com novas obras raras.",
+        content: "Acervo de Zico Priester. Em breve com novas obras raras.",
       },
       { property: "og:title", content: "Zico Priester — Em breve" },
       {
         property: "og:description",
-        content: "Acervo de Zico Priester. Voltamos em breve com novas obras raras.",
+        content: "Acervo de Zico Priester. Em breve com novas obras raras.",
       },
       { property: "og:image", content: logoAsset.url },
       { name: "twitter:image", content: logoAsset.url },
@@ -61,7 +61,7 @@ function Index() {
             transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
             className="font-display text-[48px] leading-[1.02] tracking-tight md:text-[72px]"
           >
-            Voltamos em breve.
+            Em breve.
           </motion.h1>
 
           <motion.p
