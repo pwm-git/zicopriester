@@ -13,7 +13,7 @@ export function CtaFinal() {
             <br />
             <span className="italic text-primary-foreground/90">modernismo.</span>
           </h2>
-          <p className="mx-auto mt-6 max-w-xl text-base text-background/70 md:text-lg">
+          <p className="mx-auto mt-6 max-w-xl text-base text-background/85 md:text-lg">
             Respondemos pessoalmente em até 24h. Sem formulário, sem intermediário.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

@@ -9,7 +9,7 @@ export function Footer() {
         <div className="flex flex-col items-start justify-between gap-8 md:flex-row md:items-end">
           <div>
             <img src={logoAsset.url} alt="Zico" className="h-16 w-auto mix-blend-multiply" />
-            <p className="mt-4 max-w-sm text-sm text-foreground/70">
+            <p className="mt-4 max-w-sm text-sm text-foreground/80">
               José Carlos Priester. Acervo aberto pela primeira vez ao público.
             </p>
           </div>

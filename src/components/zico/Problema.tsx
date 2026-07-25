@@ -13,12 +13,12 @@ export function Problema() {
           </div>
           <div className="lg:col-span-7 lg:col-start-6 lg:pt-16">
             <Fade>
-              <p className="text-lg leading-relaxed text-foreground/75">
+              <p className="text-lg leading-relaxed text-foreground/85">
                 Boa parte da arte produzida no Brasil dos anos <strong>1960 e 1970</strong> ficou guardada em ateliês,
                 gavetas e galerias fechadas. Para quem busca peças com densidade histórica, o caminho costuma ser longo,
                 caro e cheio de intermediários.
               </p>
-              <p className="mt-6 text-lg leading-relaxed text-foreground/75">
+              <p className="mt-6 text-lg leading-relaxed text-foreground/85">
                 Arquitetos, decoradores e colecionadores curiosos terminam optando por reproduções decorativas — quando
                 poderiam viver com uma obra que carrega um país inteiro dentro dela.
               </p>

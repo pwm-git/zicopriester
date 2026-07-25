@@ -14,7 +14,7 @@ export function Galeria() {
             <h2 className="font-display text-4xl leading-tight md:text-6xl">
               Diversas obras. <span className="italic text-primary">E muitas histórias.</span>
             </h2>
-            <p className="mt-4 max-w-xl text-base text-foreground/70">
+            <p className="mt-4 max-w-xl text-base text-foreground/80">
               Fale com a curadoria oficial do Zico, para adquirir a sua obra favorita.
             </p>
           </div>

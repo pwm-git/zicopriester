@@ -34,7 +34,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.25 }}
-              className="mt-8 max-w-xl text-base leading-relaxed text-foreground/75 md:text-lg"
+              className="mt-8 max-w-xl text-base leading-relaxed text-foreground/85 md:text-lg"
             >
               Telas, desenhos e gravuras assinados por Zico Priester. Acervo raro, crítico e moderno, com envio para
               todo o Brasil.
