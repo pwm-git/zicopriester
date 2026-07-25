@@ -28,31 +28,38 @@ export function Galeria() {
           </a>
         </div>
 
-        <div className="grid auto-rows-[220px] grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 lg:grid-cols-4">
+        <ul className="grid auto-rows-[220px] grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 lg:grid-cols-4 list-none p-0">
           {obras.map((o, i) => (
-            <motion.a
+            <motion.li
               key={o.titulo}
-              href={whatsappUrlForObra(o.titulo, o.ano)}
-              target="_blank"
-              rel="noreferrer"
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.7, delay: (i % 4) * 0.08, ease: [0.22, 1, 0.36, 1] }}
-              className={`group relative block overflow-hidden bg-secondary ${o.span}`}
+              className={o.span}
             >
-              <img
-                src={o.src}
-                alt={`${o.titulo}, ${o.ano} — ${o.tecnica}`}
-                loading="lazy"
-                className="h-full w-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]"
-              />
-              <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-foreground/85 via-foreground/10 to-transparent p-5 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                <div className="mt-1 text-[10px] uppercase tracking-[0.24em] text-background/80">{o.ano}</div>
-              </div>
-            </motion.a>
+              <a
+                href={whatsappUrlForObra(o.titulo, o.ano)}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={`${o.titulo}, ${o.ano} — ${o.tecnica}. Consultar no WhatsApp.`}
+                className="group relative block h-full overflow-hidden bg-secondary"
+              >
+                <figure className="h-full">
+                  <img
+                    src={o.src}
+                    alt={`${o.titulo}, ${o.ano} — ${o.tecnica}`}
+                    loading="lazy"
+                    className="h-full w-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04] group-focus-visible:scale-[1.04]"
+                  />
+                  <figcaption className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-foreground/85 via-foreground/10 to-transparent p-5 opacity-0 transition-opacity duration-500 group-hover:opacity-100 group-focus-visible:opacity-100">
+                    <span className="text-[10px] uppercase tracking-[0.24em] text-background">{o.ano}</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </motion.li>
           ))}
-        </div>
+        </ul>
 
         <p className="mt-8 text-center text-xs uppercase tracking-[0.24em] text-muted-foreground">
           Cada obra é única. Disponibilidade confirmada no atendimento.
