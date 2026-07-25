@@ -44,7 +44,7 @@ export function Trajetoria() {
                   <li className="h-full bg-background p-6 md:p-8">
                     <div className="font-display text-2xl italic text-primary">{e.ano}</div>
                     <div className="mt-4 font-display text-xl">{e.titulo}</div>
-                    <p className="mt-3 text-sm leading-relaxed text-foreground/70">{e.txt}</p>
+                    <p className="mt-3 text-sm leading-relaxed text-foreground/80">{e.txt}</p>
                   </li>
                 </Fade>
               ))}

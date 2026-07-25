@@ -12,7 +12,7 @@ export function Solucao() {
               Sem leiloeiro. Sem galeria intermediária.
               <span className="italic text-primary"> Direto do artista.</span>
             </h2>
-            <p className="mt-8 text-lg leading-relaxed text-foreground/75">
+            <p className="mt-8 text-lg leading-relaxed text-foreground/85">
               Telas grandes, desenhos a nanquim e gravuras assinadas, vindas do acervo pessoal de Zico Priester. Você
               conversa com a curadoria oficial de quem assinou a obra.
             </p>

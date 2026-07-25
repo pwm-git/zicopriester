@@ -14,7 +14,7 @@ export function Oferta() {
             </h2>
           </div>
           <div className="md:col-span-6 md:col-start-7">
-            <p className="text-lg leading-relaxed text-foreground/75">
+            <p className="text-lg leading-relaxed text-foreground/85">
               Valores variam conforme técnica, tamanho e raridade. Parcelamento e envio combinados diretamente com a
               curadoria do artista. Cada peça acompanha certificado assinado.
             </p>

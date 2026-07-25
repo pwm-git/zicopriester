@@ -19,7 +19,7 @@ export function ComoFunciona() {
                   <span className="font-display text-3xl italic text-primary md:text-4xl">{s.n}</span>
                   <div>
                     <div className="font-display text-xl md:text-2xl">{s.t}</div>
-                    <p className="mt-2 text-sm leading-relaxed text-foreground/70 md:text-base">{s.d}</p>
+                    <p className="mt-2 text-sm leading-relaxed text-foreground/80 md:text-base">{s.d}</p>
                   </div>
                 </li>
               ))}
