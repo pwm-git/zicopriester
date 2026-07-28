@@ -30,7 +30,7 @@ export function Footer() {
               Contato Bom
             </a>
           </span>
-          <span>TODÁ INVENTIVIDADE · ATUALIZADO JUNHO 2026</span>
+          <span>TODÁ INVENTIVIDADE® · 2026</span>
         </div>
       </Container>
     </footer>
