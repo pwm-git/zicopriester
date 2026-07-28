@@ -17,13 +17,13 @@ export type Obra = {
 };
 
 export const obras: Obra[] = [
-  { src: obra01Asset.url, titulo: "Imagem #001", span: "row-span-2" },
-  { src: obra02Asset.url, titulo: "Imagem #002", span: "" },
-  { src: obra03Asset.url, titulo: "Imagem #003", span: "" },
-  { src: obra04Asset.url, titulo: "Imagem #004", span: "row-span-2" },
-  { src: obra05Asset.url, titulo: "Imagem #005", span: "" },
-  { src: obra06Asset.url, titulo: "Imagem #006", span: "" },
-  { src: obra07Asset.url, titulo: "Imagem #007", span: "row-span-2" },
-  { src: obra08Asset.url, titulo: "Imagem #008", span: "" },
-  { src: obra09Asset.url, titulo: "Imagem #009", span: "" },
+  { src: obra01Asset.url, titulo: "Imagem #001", ano: "", tecnica: "", span: "row-span-2" },
+  { src: obra02Asset.url, titulo: "Imagem #002", ano: "", tecnica: "", span: "" },
+  { src: obra03Asset.url, titulo: "Imagem #003", ano: "", tecnica: "", span: "" },
+  { src: obra04Asset.url, titulo: "Imagem #004", ano: "", tecnica: "", span: "row-span-2" },
+  { src: obra05Asset.url, titulo: "Imagem #005", ano: "", tecnica: "", span: "" },
+  { src: obra06Asset.url, titulo: "Imagem #006", ano: "", tecnica: "", span: "" },
+  { src: obra07Asset.url, titulo: "Imagem #007", ano: "", tecnica: "", span: "row-span-2" },
+  { src: obra08Asset.url, titulo: "Imagem #008", ano: "", tecnica: "", span: "" },
+  { src: obra09Asset.url, titulo: "Imagem #009", ano: "", tecnica: "", span: "" },
 ];
