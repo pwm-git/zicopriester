@@ -21,7 +21,7 @@ export const depoimentos: Depoimento[] = [
   {
     t: `Tive o prazer de conhecer José Carlos Lepper de Campos Priester, o Zico, quando ele ainda era estudante de arquitetura na Faculdade de Arquitetura do Mackenzie. Conheci-o, porque passei a namorar a irmã dele, Maria Tereza, com quem me casei dois anos depois, em 1963.\n\nTenho, portanto, uma convivência com o Zico de mais de 65 anos. Uma vida toda!\n\nSempre foi uma personalidade marcante, sempre bem-humorado, inteligente, espirituoso e competente.\n\nAcompanhei sua carreira como arquiteto.\n\nPrimeiro na renomada Construtora Christiani & Nielsen e depois como independente.\n\nO projeto da própria casa, foi marcante.\n\nZico evoluiu também em outras áreas.\n\nPassou a ser um excelente fotógrafo, captando imagens preciosas, além disso, passou a trabalhar com o pincel. Tenho até hoje uma formidável gravura que ele fez da minha primeira filha, Cristina, partindo de uma fotografia.\n\nNão contente com essas competências todas, evoluiu com músico, tocando violão e tornando-se um excelente flautista.\n\nZico é uma pessoa admirável, que nunca perdeu o bom humor, transbordando de criatividade.\n\nMerece ser visto e respeitado!`,
     n: "Eugenio Staub",
-    c: "Arquiteto e cunhado do artista",
+    c: "Empresário e cunhado do artista",
     long: true,
   },
 ];
