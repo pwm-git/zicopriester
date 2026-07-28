@@ -17,13 +17,13 @@ export type Obra = {
 };
 
 export const obras: Obra[] = [
-  { src: obra01Asset.url, titulo: "Operário em pausa", ano: "1972", tecnica: "Óleo sobre tela", span: "row-span-2" },
-  { src: obra02Asset.url, titulo: "Bezerra, o santo", ano: "1968", tecnica: "Nanquim sobre papel", span: "" },
-  { src: obra03Asset.url, titulo: "Rua do Triunfo, madrugada", ano: "1974", tecnica: "Óleo sobre linho", span: "" },
-  { src: obra04Asset.url, titulo: "Três figuras", ano: "1971", tecnica: "Litografia, tiragem 12/30", span: "row-span-2" },
-  { src: obra05Asset.url, titulo: "Centro velho", ano: "1976", tecnica: "Óleo sobre tela", span: "" },
-  { src: obra06Asset.url, titulo: "Retrato do crítico", ano: "1970", tecnica: "Tinta sobre papel", span: "" },
-  { src: obra07Asset.url, titulo: "O viajante", ano: "1973", tecnica: "Óleo sobre tela", span: "row-span-2" },
-  { src: obra08Asset.url, titulo: "Transamazônica", ano: "1973", tecnica: "Óleo sobre tela", span: "" },
-  { src: obra09Asset.url, titulo: "Edifício, esquina da Ipiranga", ano: "1969", tecnica: "Croqui a nanquim", span: "" },
+  { src: obra01Asset.url, titulo: "Imagem #001", span: "row-span-2" },
+  { src: obra02Asset.url, titulo: "Imagem #002", span: "" },
+  { src: obra03Asset.url, titulo: "Imagem #003", span: "" },
+  { src: obra04Asset.url, titulo: "Imagem #004", span: "row-span-2" },
+  { src: obra05Asset.url, titulo: "Imagem #005", span: "" },
+  { src: obra06Asset.url, titulo: "Imagem #006", span: "" },
+  { src: obra07Asset.url, titulo: "Imagem #007", span: "row-span-2" },
+  { src: obra08Asset.url, titulo: "Imagem #008", span: "" },
+  { src: obra09Asset.url, titulo: "Imagem #009", span: "" },
 ];
