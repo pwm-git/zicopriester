@@ -9,7 +9,7 @@ export const INSTAGRAM_HANDLE =
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
   WHATSAPP_MESSAGE,
 )}`;
-export const INSTAGRAM_URL = `https://www.instagram.com/${INSTAGRAM_HANDLE}`;
+export const INSTAGRAM_URL = "https://www.instagram.com/direct/t/18106150147764264/";
 
 export const whatsappUrlForObra = (titulo: string, ano: string) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
