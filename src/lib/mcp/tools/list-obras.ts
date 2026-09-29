@@ -11,6 +11,7 @@ const obras = [
   { id: "obra-07", titulo: "Imagem #007" },
   { id: "obra-08", titulo: "Imagem #008" },
   { id: "obra-09", titulo: "Imagem #009" },
+  { id: "obra-11", titulo: "Imagem #011", tecnica: "Gravura" },
 ];
 
 export default defineTool({
