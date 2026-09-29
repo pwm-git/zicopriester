@@ -27,4 +27,11 @@ export const obras: Obra[] = [
   { src: obra07Asset.url, titulo: "Imagem 007", ano: "", tecnica: "", span: "row-span-2" },
   { src: obra08Asset.url, titulo: "Imagem 008", ano: "", tecnica: "", span: "" },
   { src: obra09Asset.url, titulo: "Imagem 009", ano: "", tecnica: "", span: "" },
+  {
+    src: obra11Asset.url,
+    titulo: "Imagem 011",
+    ano: "",
+    tecnica: "Gravura",
+    span: "col-span-2 row-span-2",
+  },
 ];
