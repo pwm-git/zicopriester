@@ -7,6 +7,7 @@ import obra06Asset from "@/assets/obra-06.jpg.asset.json";
 import obra07Asset from "@/assets/obra-07.jpg.asset.json";
 import obra08Asset from "@/assets/obra-08.jpg.asset.json";
 import obra09Asset from "@/assets/obra-09.jpg.asset.json";
+import obra11Asset from "@/assets/obra-11.jpg.asset.json";
 
 export type Obra = {
   src: string;
