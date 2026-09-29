@@ -7,6 +7,7 @@ import obra06Asset from "@/assets/obra-06.jpg.asset.json";
 import obra07Asset from "@/assets/obra-07.jpg.asset.json";
 import obra08Asset from "@/assets/obra-08.jpg.asset.json";
 import obra09Asset from "@/assets/obra-09.jpg.asset.json";
+import obra11Asset from "@/assets/obra-11.jpg.asset.json";
 
 export type Obra = {
   src: string;
@@ -23,6 +24,13 @@ export const obras: Obra[] = [
   { src: obra04Asset.url, titulo: "Imagem 004", ano: "", tecnica: "", span: "row-span-2" },
   { src: obra05Asset.url, titulo: "Imagem 005", ano: "", tecnica: "", span: "" },
   { src: obra06Asset.url, titulo: "Imagem 006", ano: "", tecnica: "", span: "" },
+  {
+    src: obra11Asset.url,
+    titulo: "Imagem 011",
+    ano: "",
+    tecnica: "Gravura",
+    span: "col-span-2 row-span-2",
+  },
   { src: obra07Asset.url, titulo: "Imagem 007", ano: "", tecnica: "", span: "row-span-2" },
   { src: obra08Asset.url, titulo: "Imagem 008", ano: "", tecnica: "", span: "" },
   { src: obra09Asset.url, titulo: "Imagem 009", ano: "", tecnica: "", span: "" },
