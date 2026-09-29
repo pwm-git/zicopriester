@@ -28,7 +28,7 @@ export function Galeria() {
           </a>
         </div>
 
-        <ul className="grid auto-rows-[220px] grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 lg:grid-cols-4 list-none p-0">
+        <ul className="grid auto-rows-[220px] grid-cols-2 gap-4 [grid-auto-flow:dense] md:grid-cols-3 md:gap-6 lg:grid-cols-4 list-none p-0">
           {obras.map((o, i) => (
             <motion.li
               key={o.titulo}
